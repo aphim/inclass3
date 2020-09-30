@@ -1,0 +1,50 @@
+/**
+ * Project OOP3200-F2020-Lesson4
+ * @author Jacky Yuan
+ */
+
+
+#include "Student.h"
+
+/**
+ * Student implementation
+ */
+
+
+/**
+ * @param first_name
+ * @param last_name
+ * @param age
+ * @param student_id
+ */
+void Student::Student(string first_name, string last_name, float age, string student_id) {
+
+}
+
+/**
+ * @return string
+ */
+string Student::getStudentID() {
+    return "";
+}
+
+/**
+ * @param value
+ */
+void Student::setStudentID(string value) {
+
+}
+
+/**
+ * @return void
+ */
+void Student::studies() {
+    return;
+}
+
+/**
+ * @return string
+ */
+string Student::toString() {
+    return "";
+}
