@@ -19,7 +19,7 @@ public:
  * @param age
  * @param student_id
  */
-void Student(string first_name, string last_name, float age, string student_id);
+Student(string first_name, string last_name, float age, string student_id);
     
 string getStudentID();
     
