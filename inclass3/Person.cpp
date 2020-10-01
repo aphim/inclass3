@@ -21,7 +21,6 @@
 Person::Person(std::string first_name, std::string last_name, const float age)
     : m_age(age), m_firstName(std::move(first_name)), m_lastName(std::move(last_name))
 {
-
 }
 
 /**
@@ -88,12 +87,10 @@ void Person::SaysHello() const
 std::string Person::ToString()
 {
     std::string output_string;
-
     output_string += "-------------------------------------------\n";
     output_string += "First Name: " + getFirstName() + "\n";
     output_string += "Last Name : " + getLastName() + "\n";
     output_string += "Age       : " + std::to_string(getAge()) + "\n";
     output_string += "-------------------------------------------\n";
-
     return output_string;
 }

@@ -25,23 +25,19 @@ public:
      * @param value
      */
     void setAge(float value);
-
     std::string getFirstName() const;
 
     /**
      * @param value
      */
     void setFirstName(const std::string& value);
-
     std::string getLastName() const;
 
     /**
      * @param value
      */
     void setLastName(const std::string& value);
-
     void SaysHello() const;
-
     virtual std::string ToString();
 
 private:

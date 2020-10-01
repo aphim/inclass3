@@ -21,7 +21,6 @@ public:
      * @param student_id
      */
    Student(const std::string& first_name, const std::string& last_name, float age, std::string student_id);
-
     std::string getStudentID() const;
 
     /**
@@ -29,7 +28,6 @@ public:
      */
     void setStudentID(const std::string& value);
     void Studies() const;
-
    std::string ToString() override;
 
 private:
